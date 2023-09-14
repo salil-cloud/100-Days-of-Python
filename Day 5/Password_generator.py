@@ -10,7 +10,7 @@ digits = [str(i) for i in range(10)]
 special_characters = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '+', '=', '{', '}', '[', ']', '|', '\\', ';', ':', '<', '>', ',', '.', '?', '/']
 
 # Get user input for the number of characters needed for each category
-Upper_case = int(input("How many Upper-case alphabets you need in your password (recommended - 4): "))
+Upper_case = int(input("\n\nHow many Upper-case alphabets you need in your password (recommended - 4): "))
 Lower_case = int(input("How many Lower-case alphabets you need in your password (recommended - 4): "))
 Numerals = int(input("How many Numerals you need in your password (recommended - 4): "))
 Special_Characters = int(input("How many Special-Characters you need in your password (recommended - 4): "))
@@ -38,4 +38,4 @@ random.shuffle(Password)
 # Join the password characters into a string
 password_str = ''.join(Password)
 
-print("Generated Password:", password_str)
+print("\n\nGenerated Password:", password_str,"\n\n")
